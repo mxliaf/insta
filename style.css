@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+}
+
+
+#conteudo {
+    width: 800px;
+    height: 1000px;
+    margin: 0 auto;
+}
+
+#header {
+    width: 800px;
+    height: 60px;
+    background-color: rgb(161, 231, 255);
+}
+
+#cabecalho {
+    width: 800px;
+    height: 300px;
+    display: flex;
+    background-color: azure;
+}
+
+#destaques {
+    height: 130px;
+    width: 800px;
+    background-color: lightpink;
+}
+
+#hall {
+    height: 45px;
+    width: 800px;
+    background-color: peachpuff;
+}
+
+#feed {
+    height: 1000px;
+    width: 800px;
+    background-color: antiquewhite;
+}
+
+#fotodeperfil {
+    width: 300px;
+    height: 300px;
+    background-color: rgb(223, 255, 168);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    box-sizing: border-box;
+
+}
+
+#textodeperfil {
+    width: 500px;
+    height: 300px;
+    background-color: rgb(205, 205, 255);
+}
+
+#pfp {
+    border-radius: 50%;
+}
+
+#dadosnumericos {
+    display: flex;
+    gap: 8px;
+    height: 25px;
+}
+
+#username {
+    font-size: 30px;
+    display: flex;
+    margin: 0;
+}
