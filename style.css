@@ -12,21 +12,53 @@
     z-index: 1000;
 }
 
-.perfil {
+.container-perfil {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    flex-direction: column;
+    align-items: center;
+    
     width: 100%;
-    min-height: 400px;
+}
+
+.site-nome {
+    font-size: 24px;
+
+}
+
+.barra-topo-botoes div {
+    margin-left: 1600px;
+    
+    gap: 10px;
+    background-color: grey;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+
+.perfil {
+    
     padding: 40px 20px;
     display: flex;
-    margin-top: 80px;
+    margin-top: 20px;
     max-width: 1200px;
     justify-content: center;
 }
 
 .dados {
-    margin-right: 40px;
+
     padding: 15px;
     flex: 1;
+    background-color: #fff;
 
+}
+
+.dados-numeros {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 10px;
 }
 
 .caixa-de-foto {
@@ -36,11 +68,26 @@
 
 .pfp {
     border-radius: 100px;
+    display: flex;
+    margin-top: 50px;
 }
 
 .alinhamento {
     align-items: center;
     display: flex;
 
+}
+
+.container-botoes {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.container-botoes div {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    cursor: pointer;
 }
 
