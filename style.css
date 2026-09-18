@@ -40,22 +40,69 @@ body {
     background-color: antiquewhite;
 }
 
+#barraacoes {
+    display: flex;
+    gap: 10px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    /* background-color: blanchedalmond; */
+}
+
+#botaoseguir {
+    height: 35px;
+    width: 295px;
+    padding: 12px 20px;
+    border-radius: 12px;
+    background-color: gainsboro;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#botaomensagem {
+    height: 35px;
+    width: 295px;
+    padding: 12px 20px;
+    border-radius: 12px;
+    background-color: gainsboro;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#contassemelhantes {
+    height: 35px;
+    width: auto;
+    padding: 12px 20px;
+    border-radius: 12px;
+    background-color: gainsboro;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#button {
+    justify-content: center;
+}
+
 #fotodeperfil {
     width: 300px;
     height: 300px;
-    background-color: rgb(223, 255, 168);
+    /* background-color: rgb(223, 255, 168); */
     align-items: center;
     display: flex;
     justify-content: center;
     padding: 50px;
     box-sizing: border-box;
+    
 
 }
 
 #textodeperfil {
     width: 500px;
     height: 300px;
-    background-color: rgb(205, 205, 255);
+    /* background-color: rgb(205, 205, 255); */
+    line-height: 20px;
 }
 
 #pfp {
@@ -65,11 +112,35 @@ body {
 #dadosnumericos {
     display: flex;
     gap: 8px;
-    height: 25px;
+    height: 40px;
 }
 
 #username {
     font-size: 30px;
     display: flex;
+    height: 60px;
+}
+
+#nome {
+    line-height: 0;
+}
+
+#linkbio {
+    display: inline-flex;
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#iconlink {
+    margin-inline-end: 4px;
+}
+
+#hyperlink {
+    display: flex;
+    cursor: pointer;
     margin: 0;
+    justify-content: center;
+    align-items: center;
 }
