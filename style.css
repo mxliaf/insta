@@ -81,28 +81,41 @@ a {
     display: flex;
     height: 150px;
     width: 800px;
-    background-color: lightpink;
+    /* background-color: lightpink; */
     overflow-y: hidden;
     overflow-x: scroll;
+    justify-content: center;
 }
 
 
 .destaque {
-    /* background-color: cornflowerblue; */
-    height: 120px;
-    width: 120px;
-    box-sizing: border-box;
-    padding: 10px;
     
+    /* background-color: cornflowerblue; */
+    height: 150px;
+    width: 120px;
+    /* box-sizing: border-box; */
+    padding: 10px;
+    /* justify-content: center; */
+    /* align-items: center; */
 
     p {
         margin-top: 0;
+        display: flex;
+        align-items: center;
         text-align: center;
+        
         font-weight: 600;
+        font-size: small;
+        margin-top: 8px;
     }
 
     img {
     border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    align-items: center;
+    justify-content: center;
+    object-fit: cover;
 }
 }
 
@@ -120,7 +133,11 @@ a {
 #feed {
     /* height: 1000px; */
     /* width: 800px; */
-    background-color: antiquewhite;
+    /* background-color: antiquewhite; */
+
+    img {
+        object-fit: cover;
+    }
 }
 
 #barraacoes {
@@ -274,17 +291,17 @@ a {
 
 #feed {
 
-    display: grid;
-    width: 800px;
+    display: flex;
+    width: 1000px;
     height: 600px;
-    overflow-y: scroll;
-    overflow-x: auto;
+    /* overflow-y: scroll; */
+    /* overflow-x: auto; */
     flex-wrap: wrap; 
     align-items: center;
-    justify-content: center;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 2px;
-    row-gap: 6px;
+    /* justify-content: center; */
+    /* grid-template-columns: repeat(3, 1fr); */
+    gap: 6px;
+    /* row-gap: 6px; */
 }
 
 .posts {
