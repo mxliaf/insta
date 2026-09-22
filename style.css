@@ -283,14 +283,13 @@ a {
     align-items: center;
     justify-content: center;
     grid-template-columns: repeat(3, 1fr);
-    gap: 1px;
+    gap: 2px;
+    row-gap: 6px;
 }
 
 .posts {
-    width: 260px;
-    height: 350px;
-    aspect-ratio: 3 / 4;;
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
